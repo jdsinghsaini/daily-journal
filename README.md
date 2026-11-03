@@ -21,6 +21,16 @@ A private daily journal for iPhone and Android, built with Expo (SDK 58) and Rea
 - **Export:** share every entry as plain text.
 - Light and dark mode.
 
+## Install on Android straight from GitHub
+
+Every push to `main` builds an APK automatically (see `.github/workflows/android-apk.yml`). On your Android phone:
+
+1. Open the repository's **Releases** page.
+2. Download `daily-journal-vN.apk` from the newest release.
+3. Tap the file to install it. If Android asks, allow your browser to install unknown apps.
+
+These builds are signed with a test key, which is fine for your own phone. Play Store releases need EAS Build or your own upload key.
+
 ## Run it on your phone (development)
 
 You need Node.js 22.13 or newer.
